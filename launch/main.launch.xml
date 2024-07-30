@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+    <include file="$(find-pkg-share turtle_tf_3d_ros2)/launch/start_world.launch.py"/>
+    <include file="$(find-pkg-share turtle_tf_3d_ros2)/launch/spawn_turtle.launch.py"/>
+    <include file="$(find-pkg-share turtle_tf_3d_ros2)/launch/spawn_cam_bot.launch.py"/>
+
+</launch>
